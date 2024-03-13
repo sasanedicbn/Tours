@@ -1,6 +1,6 @@
 import React from "react";
 
-const Tour = ({ tour }) => {
+const Tour = ({ tour, removeTour }) => {
   const { id, name, info, image, price } = tour;
 
   return (

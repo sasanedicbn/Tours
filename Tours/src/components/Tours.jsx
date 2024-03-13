@@ -1,9 +1,13 @@
 import Tour from "./Tour";
+import { useState } from "react";
 const Tours = ({toursData}) => {
+    const[tours, setTours] = useState(toursData)
+
+
     return(
      <section className="tours-container">
-        {toursData.map((tour) => {
-          return <Tour key={tour.id} tour={tour}/>
+        {tours.map((tour) => {
+          return <Tour key={tour.id} tour={tour} />
         })}
      </section>
     )
