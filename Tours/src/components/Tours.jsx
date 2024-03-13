@@ -13,7 +13,7 @@ const Tours = ({toursData}) => {
     return(
      <section className="tours-container">
         {tours.map((tour) => {
-          return <Tour key={tour.id} tour={tour} />
+          return <Tour key={tour.id} tour={tour} removeTour={removeTour}/>
         })}
      </section>
     )
