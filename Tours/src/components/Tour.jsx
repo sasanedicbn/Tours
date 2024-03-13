@@ -7,7 +7,6 @@ const Tour = ({ tour }) => {
     <article className="tour">
       <div className="img-container">
         <img src={image} alt={name} />
-        <span className="close-btn">×</span>
       </div>
       <div className="tour-info">
         <h3>{name}</h3>

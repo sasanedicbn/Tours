@@ -1,12 +1,11 @@
 import Tour from "./Tour";
 const Tours = ({toursData}) => {
     return(
-    <div>
+     <section className="tours-container">
         {toursData.map((tour) => {
           return <Tour key={tour.id} tour={tour}/>
         })}
-        
-    </div>
+     </section>
     )
 }
 
