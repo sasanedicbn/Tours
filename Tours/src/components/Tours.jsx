@@ -3,6 +3,12 @@ import { useState } from "react";
 const Tours = ({toursData}) => {
     const[tours, setTours] = useState(toursData)
 
+    function removeTour(id) {
+      const updateTours = tours.filter((tour) => tour.id !== id)
+      setTours(updateTours)
+      console.log(id)
+      console.log(tours)
+    }
 
     return(
      <section className="tours-container">
