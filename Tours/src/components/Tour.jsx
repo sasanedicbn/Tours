@@ -13,7 +13,7 @@ const Tour = ({ tour, removeTour }) => {
         <h4>${price}</h4>
       </div>
       <p>{info}</p>
-      <button className="not-interested-btn" >
+      <button className="not-interested-btn" onClick={() => removeTour(id)}>
         Not Interested
       </button>
     </article>
