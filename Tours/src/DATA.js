@@ -1,4 +1,4 @@
-export const data = [
+const data = [
   {
     id: "rec6d6T3q5EBIdCfD",
     name: "Best of Paris in 7 Days Tour",
@@ -35,3 +35,4 @@ export const data = [
     price: "2,595",
   },
 ];
+export default data;
