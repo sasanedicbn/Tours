@@ -1,7 +1,7 @@
 import Tour from "./Tour";
 import { useState } from "react";
 const Tours = ({toursData}) => {
-    const[tours, setTours] = useState(toursData)
+    const[tours, setTours] = useState(...toursData)
 
     function removeTour(id) {
       const updateTours = tours.filter((tour) => tour.id !== id)
