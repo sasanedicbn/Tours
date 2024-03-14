@@ -25,17 +25,11 @@ const Tours = () => {
     const refetchData = () => {
         fetchData()
     }
-    // function showText() {
-    //  tours.forEach((tour) => tour.info.slice(0,25))
-     
-    // }
-    // showText()
 
     function removeTour(id) {
         const updatedTours = tours.filter((tour) => tour.id !== id);
         setTours(updatedTours);
     }
-    
     
     return (
         <section className="tours-container">

@@ -21,7 +21,7 @@ const Tour = ({ tour, removeTour }) => {
          <button onClick={toggleShow} className="btnShow">
         {showMore ? "Show Less" : "Show More"}
         </button>
-        </p>
+      </p>
       <button className="not-interested-btn" onClick={() => removeTour(id)}>
         Not Interested
       </button>
