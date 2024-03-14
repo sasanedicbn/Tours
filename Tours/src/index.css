@@ -60,4 +60,27 @@
     background-color: #c82333;
     color: white;
   }
+  /* REFETCHDATA */
+  .refetch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 84vw;
+  }
+  
+  .refetch-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .refetch-button {
+    padding: 10px 20px;
+    font-size: 1.8em;
+    border-radius: 5px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
   
